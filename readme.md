@@ -15,8 +15,9 @@ openssl req -nodes -new -keyout server.key -out server.csr -config server.cnf -s
 openssl x509 -req -in server.csr -CA root.cer -CAkey root.key -set_serial 123 -out server.cer -extfile server.cnf -extensions x509_ext -sha256
 ```
 
-## Aplicación
+## Levantar el servidor.
 ```bash
+npm install
 node main.js
 ```
 
