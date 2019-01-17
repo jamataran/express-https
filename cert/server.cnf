@@ -17,7 +17,8 @@ x509_extensions    = x509_ext
 
 countryName = es
 organizationName = Neoris EMEA
-commonName = Neoris EMEA CA
+commonName = localhost
+nsCertType   = server
 
 [ x509_ext ]
 

@@ -13,8 +13,8 @@ x509_extensions    = x509_ext
 [ req_distinguished_name ]
 
 countryName = es
-organizationName = Neoris EMEA
-commonName = Neoris EMEA CA
+organizationName = SanitasDev
+commonName = SanitasDev CA
 
 [ x509_ext ]
 
