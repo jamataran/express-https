@@ -11,6 +11,9 @@ distinguished_name = req_distinguished_name
 
 x509_extensions    = x509_ext
 
+default_days     = 1825
+default_crl_days = 1825
+
 [ req_distinguished_name ]
 
 # Note that the following are in 'reverse order' to what you'd expect to see.
@@ -19,7 +22,7 @@ countryName = es
 organizationName = Neoris EMEA
 commonName = localhost
 nsCertType   = server
-
+    
 [ x509_ext ]
 
 keyUsage=critical,digitalSignature,keyAgreement
